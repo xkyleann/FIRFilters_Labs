@@ -91,6 +91,10 @@ ylabel('Amplitude');
 title('Filtered Signal');
 ```
 
+### Result
+<img width="745" alt="image" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/0b2ab6f2-a2bc-4678-9973-a42f313b1cd0">
+
+ 
 ## Low-pass FIR filter using the windowing method with a Hamming window
 ```matlab
 % Design and Implementation of Low-Pass FIR Filter using Hamming Window
@@ -150,10 +154,18 @@ title('Filtered Signal');
 xlabel('Time (s)');
 ylabel('Amplitude');
 ```
+
+### Result | Magnitude Response (dB)
+<img width="745" alt="image" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/b6c6bb58-aba6-4deb-b7f0-b11f61e0a6ff">
+
+### Result | Phase Response (dB)
+<img width="745" alt="image" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/269c334d-bcab-44ba-8151-6e72b997fef9">
+
 <details>
 <summary><b> Explanation </b></summary>
 <a> A low-pass FIR filter with a passband frequency of 100 Hz and a stopband frequency of 200 Hz. The code then generates an input signal consisting of a sinusoid with added noise and filters the signal using the designed FIR filter through convolution. Finally, the input and filtered signals are plotted for visualization.</a>
 </details>
+
 
 ### Source (within MLA Format)
 - [Farhang-Boroujeny, Behrouz. "Design and Implementation of Finite Impulse Response (FIR) Filter." ResearchGate, 2016](https://www.researchgate.net/publication/297129417_Design_and_implementation_of_finite_impulse_response_FIR_filter)
