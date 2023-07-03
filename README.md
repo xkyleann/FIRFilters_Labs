@@ -1,8 +1,24 @@
 # Design and Implementation of Finite Impulse Response (FIR) Filters
 This project focuses on the design and implementation of Finite Impulse Response (FIR) filters. FIR filters are widely used in digital signal processing for applications such as audio and image processing. The project includes examples implemented in Matlab to demonstrate the design and analysis of FIR filters.
 
+In signal processing, a finite impulse response (FIR) filter is a filter whose impulse response (or response to any finite length input) is of finite duration, because it settles to zero in finite time. This is in contrast to infinite impulse response (IIR) filters, which may have internal feedback and may continue to respond indefinitely (usually decaying)
+
 ## Introduction 
 Finite Impulse Response (FIR) filters are a class of digital filters with a finite impulse response. They are characterized by their **_linear phase response_** and **_stability_**. In this project, we explore the design and implementation of FIR filters using various design methods.
+
+## Defination
+
+For a **_causal discrete-time_** FIR filter of order N, each value of the output sequence is a weighted sum of the most recent input values:
+
+$$ y[n] = b[0] * x[n] + b[1] * x[n-1] + b[2] * x[n-2] + \ldots + b[N] * x[n-N] = \sum_{i=0}^{N} b_i * x [n-i] $$
+
+where
+* x[n] is the input signal,
+* y[n] is the output signal,
+* N is the filter order; an Nth order filter has N+1 terms on the right side.
+
+
+
 
 ### Design Methods
 
