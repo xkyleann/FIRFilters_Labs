@@ -26,8 +26,8 @@ Compare the spectrum at the receiver input (that is after the AWGN channel) and 
 <img width="553" alt="Ekran Resmi 2024-03-14 18 04 01" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/7a91bb90-394f-4f55-ae22-376605e2d305">
 
 
-## Project File
-[Project 3 File]()
+## Project File in MatLab
+[Project 3 File](https://github.com/xkyleann/FIR_Filters/blob/main/3Wİ-Fi_Spectrum.md.slx)
 
 ## Task Document
 [Task 3 Document](https://github.com/xkyleann/FIR_Filters/files/14605645/lab3_2024_Wi-Fi_DSSS.kopyasi.pdf)
