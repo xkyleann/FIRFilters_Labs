@@ -30,5 +30,4 @@ Compare the spectrum at the receiver input (that is after the AWGN channel) and 
 [Project 3 File]()
 
 ## Task Document
-[Task 3 File](https://github.com/xkyleann/FIR_Filters/files/14605645/lab3_2024_Wi-Fi_DSSS.kopyasi.pdf)
-)
+[Task 3 Document](https://github.com/xkyleann/FIR_Filters/files/14605645/lab3_2024_Wi-Fi_DSSS.kopyasi.pdf)
