@@ -10,7 +10,7 @@ The system will operate at the carrier frequency of 2442 MHz (channel 6).
 * The recommended simulation time is 160 μs (in MatLab is has to be 160e-6). Observe the spectrum. Save the obtained plot.
 
 * Next, implement the spectrum spreading using the Barker Code Generator
-* >> set_param('wifi/Product','SampleTime','0.1e-9') (To MatLab, change wifi to your file name)
+> set_param('wifi/Product','SampleTime','0.1e-9') (To MatLab, change wifi to your file name)
 
 * Next, build the receiver. In the AWGN block set the Signal to noise ratio (SNR) to 100 (attention: SNR not Eb/No).
 * he receiver uses the same Barker code as the transmitter. In some versions of Matlab, the Sign block is difficult to find in and the easiest way to find it is to search for “signum”. In the Integrate and Dump set the Integration period to 10000.
