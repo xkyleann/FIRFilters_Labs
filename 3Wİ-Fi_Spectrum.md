@@ -21,6 +21,14 @@ The system will operate at the carrier frequency of 2442 MHz (channel 6).
 Compare the spectrum at the receiver input (that is after the AWGN channel) and the spectrum after the multiplication with the Barker code in the receiver. To do that, enable the second input in the Spectrum Analyzer1 and connect there the output of Product2. Make sure that you see the correlation effect explained in the lecture.
 
 ## Project Result (Output of Scope)
+<img width="1095" alt="lab3connect" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/941577ff-593e-47f8-b1ef-513113433b83">
+<img width="893" alt="Ekran Resmi 2024-03-14 18 04 09" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/6d713133-6327-486e-8aba-b9915bb0fe10">
+<img width="553" alt="Ekran Resmi 2024-03-14 18 04 01" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/7a91bb90-394f-4f55-ae22-376605e2d305">
+
 
 ## Project File
 [Project 3 File]()
+
+## Task Document
+[Task 3 File](https://github.com/xkyleann/FIR_Filters/files/14605645/lab3_2024_Wi-Fi_DSSS.kopyasi.pdf)
+)
