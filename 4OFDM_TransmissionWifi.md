@@ -111,3 +111,11 @@ Next, experiment with inserting the data in a different place of the datavector 
 Return to the initial setting, that is carrier1 = **40**.
 
 * To understand why we used a 256 point FFT, modify the length of FFT to 512 and compare the results. You should see two changes: the width of the spectrum and the distance between the carriers. In Wi-Fi this distance is equal to 312.5 kHz, which we obtain automatically by selecting the required sampling frequency and FFT size.
+
+
+## Project Result (Output of Scope)
+
+## Project File in MatLab
+
+## Task Document
+[4_2024_OFDM](https://github.com/xkyleann/FIR_Filters/files/14697380/Lab4_2024_OFDM.kopyasi.pdf)
