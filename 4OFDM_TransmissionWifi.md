@@ -115,7 +115,14 @@ Return to the initial setting, that is carrier1 = **40**.
 
 ## Project Result (Output of Scope)
 
+<img width="408" alt="Ekran Resmi 2024-03-21 16 27 14" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/b1590ba4-3d85-428e-8ca8-b6f493957d97">
+<img width="553" alt="Ekran Resmi 2024-03-21 16 27 26" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/ff36ab00-7475-4193-a5bd-be842b3390ba">
+<img width="412" alt="Ekran Resmi 2024-03-21 16 27 40" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/aaaf7868-1e4a-4c05-8cae-9912bf4bf3db">
+
+
+
 ## Project File in MatLab
+[Finished Project File](https://github.com/xkyleann/FIR_Filters/blob/main/4OFDM_TransmissionWifi.m)
 
 ## Task Document
 [4_2024_OFDM](https://github.com/xkyleann/FIR_Filters/files/14697380/Lab4_2024_OFDM.kopyasi.pdf)
