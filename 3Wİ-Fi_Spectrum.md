@@ -1,9 +1,9 @@
 # Analyzing the spectrum spreading technique used in the basic physical layer of Wi-Fi
 * The goal is to analyze the operation of Wi-Fi in 1 Mbit/s mode, which is the most robust mode of operation. It is used in the most difficult radio channel conditions and allows to obtain the longest range. It uses the direct-sequence spread-spectrum technique.
-The system will operate at the carrier frequency of 2442 MHz (channel 6).
+The system will operate at the carrier frequency of **2442 MHz** (channel 6).
 
 ## Tasks 
-* Use the same PN Sequence Generator as in the previous lab (Generator polynomial = 'z^7+z^6+1' or in an alternative notation [7 6 0] and Initial states = [1 1 1 1 1 1 1]). Set the Sample time correctly, knowing that the data rate is 1 Mbit/s.
+* Use the same PN Sequence Generator as in the previous lab **(Generator polynomial = 'z^7+z^6+1'** or in an alternative notation [7 6 0] and Initial states = [1 1 1 1 1 1 1]). Set the Sample time correctly, knowing that the data rate is 1 Mbit/s.
 * The M parameter in the Unipolar to Bipolar converter should be set to 2.
 * Set the frequency of the Sine wave to the carrier frequency and the Sample time to 0.1 ns.
 * The Spectrum Analyzer should be taken from the DSP System Toolbox. Adjust its settings: Sample rate should be set to Inherited and the Method to Welch. Since we want to observe the spectrum in the frequency range of 2.4 to 2.484 GHz, disable Full frequency span, set Fstart to 2.4e9 and Fstop to 2.484e9. In the Trace options set Averaging method to Running ,and Averages = 8. Uncheck Two-sided spectrum.
