@@ -1,4 +1,4 @@
-# Laboratory Guide: Simulink Experiments in Matlab
+# Simulink Experiments in Matlab
 
 ## Introduction
 
