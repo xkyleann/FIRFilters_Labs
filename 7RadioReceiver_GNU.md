@@ -70,8 +70,10 @@ The goal of this lab is to build a simple FSK receiver that makes use of a USRP 
    - Use a two-input scope to observe the signals post-Subtraction and post-Threshold.
    - Adjust settings in the scope (V Scale to 0.3, T Scale to 0.1 ms, and AC Couple to OFF) to analyze the waveform properly.
 
+-------
 
-## Results
+
+# Results
 **Here are my schematics:** <img width="1744" alt="Ekran Resmi 2024-04-25 23 52 13" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/4bbe5984-e018-4fa4-b17b-7bc0188e8401">
 
 **With Throttle Block**
