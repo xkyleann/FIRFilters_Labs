@@ -45,7 +45,11 @@
 2. Change the sampling frequency to **1 MHz** to focus on this **GSM base station**.
 3. Use the **Peak Hold** feature during a frequency correction burst to capture the spectrum.
 
-### Section 1 - Results
+
+---
+
+
+## Section 1 - Results
 **Here are my schematics:**
 <img width="863" alt="Ekran Resmi 2024-04-25 21 46 11" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/7b676559-9f71-4e08-a13c-986ae33ce577">
 <img width="1501" alt="Ekran Resmi 2024-04-25 22 33 46" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/8c7819ee-bb9e-4f80-9a25-3ed34d867bde">
@@ -70,7 +74,7 @@
 --------
 
 
-### Section 1C Analysis of FSK modulatin using GNU Radio
+## Section 1C Analysis of FSK modulatin using GNU Radio
 NOTE: Done with QT GUI
 
 #### **Here are my schematic:**
@@ -85,7 +89,7 @@ NOTE: Done with QT GUI
 
 
 ---
-### Section 1 - Conclusion
+## Section 1 - Conclusion
 
 As conclusion, when we used a small sampling frequency (e.g. 8MHz) compared to the bandwidth of interest ((GSM signals typically occupy around 200 kHz), here is what I observed:
 - The spectrum analyzer will capture a limited portion of the actual signal.
