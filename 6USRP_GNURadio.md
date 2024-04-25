@@ -50,13 +50,13 @@
 
 
 ## Section 1 - Results
-**Here are my schematics:**
+**Schematics:**
 <img width="863" alt="Ekran Resmi 2024-04-25 21 46 11" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/7b676559-9f71-4e08-a13c-986ae33ce577">
 <img width="1501" alt="Ekran Resmi 2024-04-25 22 33 46" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/8c7819ee-bb9e-4f80-9a25-3ed34d867bde">
 
 
 
-#### Here are my results (Var Block Value = 2e6 and K=2 for CPFSK Amplitude .02):
+#### Results (Var Block Value = 2e6 and K=2 for CPFSK Amplitude .02):
 <img width="2045" alt="Ekran Resmi 2024-04-25 22 08 14" src="https://github.com/xkyleann/FIR_Filters/assets/128597547/c22d8ca3-a1bc-48dc-817b-eb1cae8cb29c">
 
 
