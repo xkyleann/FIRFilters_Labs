@@ -48,7 +48,7 @@ Lab involves utilizing Simulink within the Matlab environment, a staple tool in 
 ---
 
 
-# - Results
+#  Results
 
 ## Section 1: Building a very simple block diagram using Simulink
 <img width="1022" alt="Ekran Resmi 2024-04-26 01 08 27" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/c1f8a862-491b-4bc8-8e47-d3c3bc1e7a77">
