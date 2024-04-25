@@ -48,30 +48,35 @@ Lab involves utilizing Simulink within the Matlab environment, a staple tool in 
 ---
 
 
-### Building a very simple block diagram using Simulink - Results
+# - Results
 
-### Section 1. Building a very simple block diagram using Simulink
+## Section 1: Building a very simple block diagram using Simulink
 <img width="1022" alt="Ekran Resmi 2024-04-26 01 08 27" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/c1f8a862-491b-4bc8-8e47-d3c3bc1e7a77">
 <img width="991" alt="Ekran Resmi 2024-04-26 01 09 56" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/c45cd1bc-655b-445f-a9b2-d07eb9cdaf94">
 
 
 
-### Section 2: Frequency conversion 
-**1.5 kHz and 2 kHz Scope Result**
+## Section 2: Frequency conversion 
+####  **1.5 kHz and 2 kHz Scope Result**
 <img width="941" alt="Ekran Resmi 2024-04-26 01 02 43" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/a85039be-a681-4bee-a424-2b7364eb4351">
-**1.5 kHz and 2 kHz Spectrum Analyzer Result**
+
+####  **1.5 kHz and 2 kHz Spectrum Analyzer Result**
 <img width="1063" alt="Ekran Resmi 2024-04-26 01 03 32" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/089acc0c-4fe4-40c4-b598-63a5edb0ed6b">
-**30 MHz and 40 MHz Scope Results**
+
+####  **30 MHz and 40 MHz Scope Results**
 <img width="900" alt="Ekran Resmi 2024-04-26 01 06 23" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/f73b82e5-d8c3-4dc4-82c0-1bac02149705">
 
-### Section 3: Pseudo-random binary sequences - Results
-**Pseudo-random Binary Sequence (PRBS) with a 3-bit Shift**
+## Section 3: Pseudo-random binary sequences - Results
+####  **Pseudo-random Binary Sequence (PRBS) with a 3-bit Shift**
 <img width="1250" alt="Ekran Resmi 2024-04-26 00 45 44" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/31674cb2-1013-41d3-ae91-48b7140bf8bc">
-**Pseudo-random Binary Sequence (PRBS) with a 7-bit Shift**
+
+####  **Pseudo-random Binary Sequence (PRBS) with a 7-bit Shift**
 <img width="1214" alt="Ekran Resmi 2024-04-26 00 50 40" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/dcde0b11-d613-460e-984b-f77dfbba457b">
-**Pseudo-random Binary Sequence (PRBS) with a 7-bit Shift Spectrum Analyzer Added**
+
+####  **Pseudo-random Binary Sequence (PRBS) with a 7-bit Shift Spectrum Analyzer Added**
 <img width="1240" alt="Ekran Resmi 2024-04-26 00 54 21" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/d30532d6-ad00-4e9e-8b54-1c6ac4369b1e">
-**Pseudo-random Binary Sequence (PRBS) with a 7-bit Shift Spectrum Analyzer and Repeat Added**
+
+####  **Pseudo-random Binary Sequence (PRBS) with a 7-bit Shift Spectrum Analyzer and Repeat Added**
 <img width="1329" alt="Ekran Resmi 2024-04-26 00 58 29" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/afc210b7-3e9b-4563-9f4e-0240107ec0cf">
 
 
