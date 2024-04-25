@@ -4,9 +4,6 @@
 ## Overview
 The goal of this lab is to build a simple FSK receiver that makes use of a USRP device to receive signals transmitted in the ISM 860 MHz band by the instructor. This exercise will introduce you to practical aspects of digital communication systems using software-defined radio.
 
-![Two methods for generating a modulated signal](URL_to_figure_1)
-
-_Figure 1. Two methods for generating a modulated signal_
 
 ## Task 1: Setting Up the Environment
 
