@@ -70,6 +70,39 @@ The goal of this lab is to build a simple FSK receiver that makes use of a USRP 
    - Use a two-input scope to observe the signals post-Subtraction and post-Threshold.
    - Adjust settings in the scope (V Scale to 0.3, T Scale to 0.1 ms, and AC Couple to OFF) to analyze the waveform properly.
 
+
+## Results
+**Here are my schematics:** <img width="1744" alt="Ekran Resmi 2024-04-25 23 52 13" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/4bbe5984-e018-4fa4-b17b-7bc0188e8401">
+
+**With Throttle Block**
+<img width="1719" alt="Ekran Resmi 2024-04-26 00 06 00" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/b0c5c6d6-ba9a-4f24-a72d-c3064181c9b0">
+
+**Spectrum Results 500kHz**
+<img width="2044" alt="Ekran Resmi 2024-04-26 00 14 54" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/8d855c70-5f0d-4641-8ce4-2dc4751ffdde">
+
+
+**Spectrum Results 8MHz**
+<img width="2048" alt="Ekran Resmi 2024-04-26 00 16 17" src="https://github.com/xkyleann/FIRFilters_Labs/assets/128597547/52beaa60-abeb-4f49-be84-4996752c3c68">
+
+
 ## Conclusion
 
-Present the final results and the decoded binary sequence to the instructor for verification.
+As result, in the end of the lab we have to observe those points:
+
+**Small Sampling Frequency** (e.g., 8 MHz) Observations:
+**Limited Spectrum Capture:** With a sampling frequency such as 8 MHz, the spectrum analyzer captures only a restricted portion of the entire GSM signal, which typically occupies around 200 kHz. This restricted view can hinder comprehensive signal analysis.
+**Aliasing Issues:** Since the Nyquist limit (half of the sampling frequency) for 8 MHz is 4 MHz, any higher frequency components present will be folded back into the observable range. This aliasing results in a distorted representation of the spectrum, potentially misleading the analysis.
+**Large Sampling Frequency (e.g., Greater than 2 MHz) Benefits**:
+**Extended Spectrum Visibility:** By utilizing a sampling rate significantly above 2 MHz, a broader range of the spectrum becomes observable. This expanded range can accommodate multiple GSM base stations simultaneously or various other signal types within the receiver's capability, offering a more versatile use of the spectrum analyzer.
+**Reduced Aliasing:** A higher sampling rate decreases the chance of aliasing, thereby providing a truer depiction of the actual signals. This accuracy is critical for reliable signal analysis and system design.
+
+
+**Trade-offs and Computational Considerations:**
+ While I was doing this lab, I also realized processing a higher volume of data can lead to computational strain, increasing the likelihood of data loss or system performance issues.
+ 
+**Summary and Practical Implications:**
+Experimenting with both lower and higher sampling frequencies illustrates how the choice of sampling rate influences the amount of information captured and the fidelity of that information. Opting for a small sampling rate may suffice for narrowband signals but falls short for comprehensive spectrum analysis or when accuracy in wideband is required. A larger sampling rate, while more computationally demanding, enables a **more accurate** and **extensive analysis** of the **radio environment.**
+
+The key takeaway is the importance of selecting an appropriate sampling frequency that balances the need for detailed, accurate spectrum analysis against the limitations of hardware and software capabilities. This balance is crucial for effective signal analysis and system performance in practical applications.
+
+However, if I look to my result spectrums, because of I do not have device and some calculation errors there might be mistake. 
