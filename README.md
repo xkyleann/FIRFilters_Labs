@@ -1,13 +1,13 @@
 # Wireless Techniques and Systems - Table of Content - AGH
 
-| No. | Table of Contents                                                                   |
+| Lab # | Table of Contents                                                                   |
 | --- | ----------------------------------------------------------------------- |
-| 1   | [**Lab 3 WI-FI_Spectrum Documentation**](https://github.com/Etutku/SS2023_Ko_Kuczera_Gayda_SpreadSheet/blob/main/README.md)  
-| 2   | [**Lab 3 WI-FI_Spectrum Project Files**](https://github.com/xkyleann/FaceRecognition_AttandanceSystem/blob/main/User_Stories.md) |
-| 3   | [**Lab 4 OFDM_TransmissionWifi Documentation**](https://github.com/xkyleann/FaceRecognition_AttandanceSystem/tree/main/FaceRecognitionAttandanceSysytem#readme)   |
-| 4   | [**Lab 4 OFDM_TransmissionWifi Project Files**](https://drive.google.com/file/d/1H5VArBx0FVuSUGGIQmN7Hvn5l0OB6fka/view)   |
-| 5   | [**Lab 6 6USRP_GNURadio Documentation**](https://github.com/xkyleann/FaceRecognition_AttandanceSystem/tree/main/FaceRecognitionAttandanceSysytem)   |
-| 6   | [**Lab 6 6USRP_GNURadi Project Fileso**](https://github.com/xkyleann/FaceRecognition_AttandanceSystem/blob/main/Acceptance_Criteria.md)   |        
+| **Lab 3**   | [**WI-FI_Spectrum Documentation**](https://github.com/Etutku/SS2023_Ko_Kuczera_Gayda_SpreadSheet/blob/main/README.md)  
+| **Lab 3**   | [**WI-FI_Spectrum Project Files**](https://github.com/xkyleann/FaceRecognition_AttandanceSystem/blob/main/User_Stories.md) |
+| **Lab 4**   | [**OFDM_TransmissionWifi Documentation**](https://github.com/xkyleann/FaceRecognition_AttandanceSystem/tree/main/FaceRecognitionAttandanceSysytem#readme)   |
+| **Lab 4**| [**OFDM_TransmissionWifi Project Files**](https://drive.google.com/file/d/1H5VArBx0FVuSUGGIQmN7Hvn5l0OB6fka/view)   |
+| **Lab 6**   | [**USRP_GNURadio Documentation**](https://github.com/xkyleann/FaceRecognition_AttandanceSystem/tree/main/FaceRecognitionAttandanceSysytem)   |
+| **Lab 6**   | [**USRP_GNURadi Project Fileso**](https://github.com/xkyleann/FaceRecognition_AttandanceSystem/blob/main/Acceptance_Criteria.md)   |        
 
 
 
