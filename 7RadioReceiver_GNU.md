@@ -89,12 +89,12 @@ The goal of this lab is to build a simple FSK receiver that makes use of a USRP 
 
 As result, in the end of the lab we have to observe those points:
 
-**Small Sampling Frequency** (e.g., 8 MHz) Observations:
-**Limited Spectrum Capture:** With a sampling frequency such as 8 MHz, the spectrum analyzer captures only a restricted portion of the entire GSM signal, which typically occupies around 200 kHz. This restricted view can hinder comprehensive signal analysis.
-**Aliasing Issues:** Since the Nyquist limit (half of the sampling frequency) for 8 MHz is 4 MHz, any higher frequency components present will be folded back into the observable range. This aliasing results in a distorted representation of the spectrum, potentially misleading the analysis.
-**Large Sampling Frequency (e.g., Greater than 2 MHz) Benefits**:
-**Extended Spectrum Visibility:** By utilizing a sampling rate significantly above 2 MHz, a broader range of the spectrum becomes observable. This expanded range can accommodate multiple GSM base stations simultaneously or various other signal types within the receiver's capability, offering a more versatile use of the spectrum analyzer.
-**Reduced Aliasing:** A higher sampling rate decreases the chance of aliasing, thereby providing a truer depiction of the actual signals. This accuracy is critical for reliable signal analysis and system design.
+* **Small Sampling Frequency** (e.g., 8 MHz) Observations:
+* **Limited Spectrum Capture:** With a sampling frequency such as 8 MHz, the spectrum analyzer captures only a restricted portion of the entire GSM signal, which typically occupies around 200 kHz. This restricted view can hinder comprehensive signal analysis.
+* **Aliasing Issues:** Since the Nyquist limit (half of the sampling frequency) for 8 MHz is 4 MHz, any higher frequency components present will be folded back into the observable range. This aliasing results in a distorted representation of the spectrum, potentially misleading the analysis.
+* **Large Sampling Frequency (e.g., Greater than 2 MHz) Benefits**:
+* **Extended Spectrum Visibility:** By utilizing a sampling rate significantly above 2 MHz, a broader range of the spectrum becomes observable. This expanded range can accommodate multiple GSM base stations simultaneously or various other signal types within the receiver's capability, offering a more versatile use of the spectrum analyzer.
+* **Reduced Aliasing:** A higher sampling rate decreases the chance of aliasing, thereby providing a truer depiction of the actual signals. This accuracy is critical for reliable signal analysis and system design.
 
 
 **Trade-offs and Computational Considerations:**
